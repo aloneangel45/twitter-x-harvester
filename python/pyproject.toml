@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "twitter-x-harvester"
+version = "1.0.1"
+authors = [{ name = "Aether Protocol Labs", email = "dev@aetherprotocol.io" }]
+description = "Twitter (X) Data Harvester & Dynamic Guest Token Generator"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "httpx>=0.25.0"
+]
